@@ -1,3 +1,10 @@
+Video 3 - Typing Props
+
+1. Created /components/Greet.tsx and imported into App.tsx
+2. add name prop to Greet Component in App.tsx, then passed it down to Greet.tsx
+   a. to fix the parameter type any, created type Greet props and set name to string
+3.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
