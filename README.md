@@ -1,3 +1,14 @@
+Video 4 - Basic Props
+
+1. Convert number of unread messages to a prop
+2. Created isLoggedIn boolean type
+3. Typing an Object Prop
+   a. Created /components/Person.tsx
+   b. pass in PersonName object to Person.tsx
+4. Typing an Array Prop
+   a. same process as above, but you must add the [] in the type to the end of the object
+   b. also, must map the results like normal.
+
 Video 3 - Typing Props
 
 1. Created /components/Greet.tsx and imported into App.tsx
