@@ -2,6 +2,9 @@ import "./App.css";
 import { Greet } from "./components/Greet";
 import { Person } from "./components/Person";
 import { PersonList } from "./components/PersonList";
+import { Status } from "./components/Status";
+import { Heading } from "./components/Heading";
+import { Oscar } from "./components/Oscar";
 
 function App() {
   const PersonName = {
@@ -18,9 +21,14 @@ function App() {
   return (
     <div className="App">
       <h1>React Typescript Demo</h1>
-      <Greet name="Anthony" messageCount={10} isLoggedIn={false} />
+      <Greet name="Anthony" messageCount={100} isLoggedIn={true} />
       <Person name={PersonName} />
       <PersonList names={nameList} />
+      <Status status="error" />
+      <Heading>Placeholder text</Heading>
+      <Oscar>
+        <Heading>Oscar goes to Johnny Depp!</Heading>
+      </Oscar>
     </div>
   );
 }
