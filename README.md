@@ -3,7 +3,7 @@ Video 3 - Typing Props
 1. Created /components/Greet.tsx and imported into App.tsx
 2. add name prop to Greet Component in App.tsx, then passed it down to Greet.tsx
    a. to fix the parameter type any, created type Greet props and set name to string
-3.
+   b. after this, if you were to pass down a number 10 from App.tsx to Greet.tsx you would get an error saying "type 'number' is not assignable to type 'string'."
 
 # Getting Started with Create React App
 
