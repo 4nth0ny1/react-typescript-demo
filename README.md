@@ -1,6 +1,13 @@
 Link to Playlist
 https://www.youtube.com/watch?v=TiSGujM22OI&list=PLC3y8-rFHvwi1AXijGTKM0BKtHzVC-LSK&pp=iAQB
 
+Video 7 - Style Props
+
+    Container Component
+        1. Create the Container Component
+        2. pass the styles in as props instead of hardcoded into the component
+        3. must use the React.CSSProperties the in the type to restrict anything but valid CSS
+
 Video 6 - Event Props
 
     Button Component
