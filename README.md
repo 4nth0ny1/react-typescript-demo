@@ -1,7 +1,15 @@
 Link to Playlist
 https://www.youtube.com/watch?v=TiSGujM22OI&list=PLC3y8-rFHvwi1AXijGTKM0BKtHzVC-LSK&pp=iAQB
 
-Video 9, 10- useState Hook & useState Future Value
+Video 11 - useState Type Assertion
+
+    1. we are assuming for this video that you can't logout
+    2. removing logout code from User.tsx file
+    3. specifiy just <AuthUser> and make the inital value ... useState<AuthUser>({} as AuthUser)
+    4. this will allow us to access user.name and user.email without a question mark check.
+    5. we are lying to typescript and saying we know better than the compiler
+
+Video 9, 10 - useState Hook & useState Future Value
 
     9. useState
         1. create /components/state/LoggedIn.tsx
