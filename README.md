@@ -1,6 +1,11 @@
 Link to Playlist
 https://www.youtube.com/watch?v=TiSGujM22OI&list=PLC3y8-rFHvwi1AXijGTKM0BKtHzVC-LSK&pp=iAQB
 
+Video 14 - useContext
+
+    1. create 3 files in /components/context/ directory: Box.tsx, theme.ts, ThemeContext.tsx
+    2. this video just goes over how to setup a useContext situation and barely uses typescript. the next video will expand on this.
+
 Video 12, 13 - useReducer & useReducer Strict Action Types
 
     useReducer
