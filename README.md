@@ -1,6 +1,25 @@
 Link to Playlist
 https://www.youtube.com/watch?v=TiSGujM22OI&list=PLC3y8-rFHvwi1AXijGTKM0BKtHzVC-LSK&pp=iAQB
 
+Video 8 - Prop Types and Tips
+
+    Destructuring Props
+        1. Goto Input.tsx and destructure
+
+    Exporting Types
+        1. You can move the types into a separate file
+        2. Person.tsx. we will move the type out into it's own file
+        3. create /components/Person.types.tsx
+        4. copy and paste the PersonProps
+        5. Then export the props in the new file
+        6. back to Person.tsx and import it.
+
+    Reusing Types
+        1. In Person.types.ts, reorganize the code to make the type reusable
+        2. You can also export the type itself and resuse that too.
+        3. Go to PersonList.tsx and do the same thing
+        4. I also destructured the names prop and modified the component
+
 Video 7 - Style Props
 
     Container Component
