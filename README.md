@@ -1,6 +1,27 @@
 Link to Playlist
 https://www.youtube.com/watch?v=TiSGujM22OI&list=PLC3y8-rFHvwi1AXijGTKM0BKtHzVC-LSK&pp=iAQB
 
+Video 6 - Event Props
+
+    Button Component
+        1. Create Button File
+        2. Add the type ButtonProps
+        3. pass the event from App.tsx to Button.tsx
+
+        When you need the event passed into your clickHandler
+            1. add event into ButtonProps
+
+        With id parameter
+            1. add id: number to handleClick in ButtonProps
+            2. add parameter to the return in the Button
+            3. this did not work <deleted>
+
+    Input Component
+        1. Create Input.tsx component
+
+        Adding handleInputChange
+        1. You can also add in the handler inside the component itself instead of the type props
+
 Video 5 - Advanced Props
 
     Union of String Literals

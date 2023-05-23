@@ -5,6 +5,8 @@ import { PersonList } from "./components/PersonList";
 import { Status } from "./components/Status";
 import { Heading } from "./components/Heading";
 import { Oscar } from "./components/Oscar";
+import { Button } from "./components/Button";
+import { Input } from "./components/Input";
 
 function App() {
   const PersonName = {
@@ -29,6 +31,12 @@ function App() {
       <Oscar>
         <Heading>Oscar goes to Johnny Depp!</Heading>
       </Oscar>
+      <Button
+        handleClick={(event) => {
+          console.log("Button clicked", event);
+        }}
+      />
+      <Input value="" handleChange={(event) => console.log(event)} />
     </div>
   );
 }
