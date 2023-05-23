@@ -1,6 +1,21 @@
 Link to Playlist
 https://www.youtube.com/watch?v=TiSGujM22OI&list=PLC3y8-rFHvwi1AXijGTKM0BKtHzVC-LSK&pp=iAQB
 
+Video 12, 13 - useReducer & useReducer Strict Action Types
+
+    useReducer
+    1. create /component/state/Counter.tsx component
+    2. add type for CounterState and CounterAction
+
+    Strict Action Types
+    1. currently we have CounterAction type set to string. Which means we can pass something other than 'increment,' like 'reset.'
+    2. Use string literals to specify what CounterAction type is, like 'increment' | 'decrement'
+    3. if you want to add a reset button ... add that to the type and create a button that will allow it.
+
+    Discriminated Unions (recommened)
+    4. split CounterAction into two types: UpdateAction & ResetAction
+    5. Then create a CounterAction variable and set it to UpdateAction | ResetAction
+
 Video 11 - useState Type Assertion
 
     1. we are assuming for this video that you can't logout
