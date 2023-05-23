@@ -1,14 +1,16 @@
 Link to Playlist
 https://www.youtube.com/watch?v=TiSGujM22OI&list=PLC3y8-rFHvwi1AXijGTKM0BKtHzVC-LSK&pp=iAQB
 
-Video 9, 10 - useState Hook & useState Future Value
+Video 9, 10- useState Hook & useState Future Value
 
     9. useState
         1. create /components/state/LoggedIn.tsx
         2. when you add false into useState(false) it creates inference and typescript is smart enough to know that isLoggedIn must be a boolean.
 
     10. useState Future Value
-        1.
+        1. create /components/state/User.tsx
+        2. if you don't know what the value of user will be and you set it to null initially, then you need to define the AuthProps and insert | null into the component paramter.
+        3. it's the type of the future value and the initial value
 
 Video 8 - Prop Types and Tips
 
